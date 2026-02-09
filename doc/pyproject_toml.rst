@@ -214,7 +214,7 @@ without a console.
 Entry points sections
 ~~~~~~~~~~~~~~~~~~~~~
 
-You can declare `entry points <http://entrypoints.readthedocs.io/en/latest/>`_
+You can declare `entry points <https://entrypoints.readthedocs.io/en/latest/>`_
 using sections named :samp:`[project.entry-points.{groupname}]`. E.g. to
 provide a pygments lexer from your package:
 

@@ -56,7 +56,7 @@ Version 3.10
   (:ghpull:`674`). It's a good idea to always set a maximum version for the
   build requirement, to protect against changes in future major versions of Flit.
 - Avoid using the deprecated ``datetime.utcfromtimestamp()`` (:ghpull:`682`).
-- Flit now has a ``SECURITY.md`` file in the Github repository (:ghpull:`665`).
+- Flit now has a ``SECURITY.md`` file in the GitHub repository (:ghpull:`665`).
 - The tests for ``flit_core`` are no longer part of the installed package,
   reducing the size of the wheels (:ghpull:`691`).
 
@@ -526,7 +526,7 @@ Version 0.8
 -----------
 
 - A new ``flit installfrom`` subcommand to install a project from a source
-  archive, such as from Github.
+  archive, such as from GitHub.
 - :doc:`Reproducible builds <reproducible>` - you can produce byte-for-byte
   identical wheels.
 - A warning for non-canonical version numbers according to `PEP 440
