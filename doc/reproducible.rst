@@ -9,9 +9,9 @@ This is useful for verifying software. For more details, see
 `reproducible-builds.org <https://reproducible-builds.org/>`__.
 
 There is a caveat, however: wheels (which are zip files) include the
-modification timestamp from each file. This will
-probably be different on each computer, because it indicates when your local
-copy of the file was written, not when it was changed in version control.
+modification timestamp from each file. This will probably be different on each
+computer, because it indicates when your local copy of the file was written,
+not when it was changed in version control.
 These timestamps can be overridden by the environment variable
 :envvar:`SOURCE_DATE_EPOCH`.
 
