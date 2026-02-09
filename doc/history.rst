@@ -42,8 +42,8 @@ Version 3.10
   or user tokens (:samp:`pypi_token:user:{username}`).
 - The ``--python`` option can now take the path of a virtualenv folder, as an
   alternative to a Python executable (:ghpull:`667`).
-- Flit will work with current development versions of Pythona again (:ghpull:`684`).
-- The ``flit`` command line package now requires Python 3.8 or above (:ghpulL:`660`).
+- Flit will work with current development versions of Python again (:ghpull:`684`).
+- The ``flit`` command line package now requires Python 3.8 or above (:ghpull:`660`).
   ``flit_core`` still works with Python 3.6 or above.
 - The metadata in packages now has the names of optional dependency groups
   ("extras") normalised, complying with version 2.3 of the metadata standard
